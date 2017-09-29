@@ -25,7 +25,8 @@ int main ()
     //Print (data, DATA_SIZE);
     // ROR (data, 0, DATA_SIZE-1);
     print (data, DATA_SIZE);
-    }
+   
+   }
 
 
 
@@ -34,6 +35,7 @@ void sort (int data [], int size)
     {
 
     if (data [0] > data [1])
+      
         {
 
         int a = data[0];
